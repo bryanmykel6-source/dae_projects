@@ -1,0 +1,23 @@
+IOC Reputation Checker - Scan Report
+Generated: 2025-11-13 13:52:06
+Scanned by: IOC Reputation Checker Demo
+
+Target: example.com
+Verdict: Suspicious
+
+Technical findings:
+ - DNS resolution: Yes
+ - Resolved IPs: 23.192.228.80, 23.192.228.84, 23.215.0.136, 23.215.0.138, 23.220.75.232, 23.220.75.245, 2600:1406:5e00:6::17ce:bc12, 2600:1406:5e00:6::17ce:bc1b, 2600:1406:bc00:53::b81e:94c8, 2600:1406:bc00:53::b81e:94ce, 2600:1408:ec00:36::1736:7f24, 2600:1408:ec00:36::1736:7f31
+ - HTTPS: Not available / certificate issue
+   > HTTPS connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006).
+ - Local reputation: unknown
+
+Why we reached this verdict (plain English):
+ 1. No matching records in local reputation lists.
+ 2. Domain resolves to IP(s): 23.192.228.80, 23.192.228.84, 23.215.0.136, 23.215.0.138, 23.220.75.232, 23.220.75.245, 2600:1406:5e00:6::17ce:bc12, 2600:1406:5e00:6::17ce:bc1b, 2600:1406:bc00:53::b81e:94c8, 2600:1406:bc00:53::b81e:94ce, 2600:1408:ec00:36::1736:7f24, 2600:1408:ec00:36::1736:7f31.
+ 3. HTTPS connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006).
+ 4. Some risk signals detected; exercise caution.
+
+Suggested next steps:
+ - Use caution. Do not enter credentials or sensitive data.
+ - Consider deeper analysis or blocking if you see other evidence.

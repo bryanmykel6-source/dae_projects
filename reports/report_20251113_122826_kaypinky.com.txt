@@ -1,0 +1,22 @@
+IOC Reputation Checker - Scan Report
+Generated: 2025-11-13 12:28:26
+Scanned by: IOC Reputation Checker Demo
+
+Target: kaypinky.com
+Verdict: Dangerous
+
+Technical findings:
+ - DNS resolution: No
+ - HTTPS: Not available / certificate issue
+   > HTTPS connection failed: [Errno 8] nodename nor servname provided, or not known.
+ - Local reputation: trusted
+
+Why we reached this verdict (plain English):
+ 1. This site is in the user-maintained trusted list.
+ 2. Domain could not be resolved via DNS.
+ 3. HTTPS connection failed: [Errno 8] nodename nor servname provided, or not known.
+ 4. Multiple risk signals detected; treat as dangerous.
+
+Suggested next steps:
+ - Block the domain and do not visit or share credentials.
+ - If seen in email attachments, treat as malicious and isolate affected systems.
