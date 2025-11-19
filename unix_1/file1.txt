@@ -1,0 +1,60 @@
+  770  history -100
+  771  clear
+  772  ls
+  773  pwd
+  774  ls
+  775  clear
+  776  ls
+  777  pwd
+  778  ls
+  779  cd desktop/
+  780  cd "mykel's\nls\ncd "mykel's dae project"\ncd "mykel dae folder
+  781  cd "mykel's dae project"
+  782  pwd
+  783  cd
+  784  pwd
+  785  ls
+  786  cd "mykel folder dae project"
+  787  pwd
+  788  pwd
+  789  cd desktop
+  790  ls
+  791  ls
+  792  cd "mykel folder/"
+  793  ls
+  794  ls
+  795  clear
+  796  ls
+  797  cd unix_1
+  798  touch
+  799  touch file1. txt
+  800  touch file2.txt
+  801  cat file1.txt file2.txt
+  802  cat file1.txt file2.txt
+  803  ls
+  804  ls
+  805  ls -1
+  806  cd ..
+  807  ls
+  808  clear
+  809  ls -a
+  810  man ls
+  811  pwd
+  812  man pwd
+  813  ls
+  814  man cd
+  815  ls -a
+  816  man ls
+  817  man pwd
+  818  man cd 
+  819  cd unix_1
+  820  claer
+  821  clear
+  822  banner -w50 "mykel\n\nclear\nclear\n\n\n\n\n\nbanner w-50 "mykel"\nbanner _50 "mykel"\nunix_1 % banner _50 \ncd unix_1
+  823  ls
+  824  nano file1.txt
+  825  nano file1.txt
+  826  ls -la
+  827  chmod o+w file1.txt
+  828  ls -la
+
